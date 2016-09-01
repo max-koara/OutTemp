@@ -86,8 +86,8 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 	#
 	def onInitialize(self):
 		# Bind variables and configuration variable
-    print "onInitialize"
-    print
+            print "onInitialize"
+            print
 		# Set InPort buffers
 		self.addInPort("origin_Temp",self._origin_TempIn)
 
