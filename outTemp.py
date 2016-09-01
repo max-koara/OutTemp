@@ -86,10 +86,10 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 	#
 	def onInitialize(self):
 		# Bind variables and configuration variable
-    print "onInitialize"
-    print
+            print "onInitialize"
+            print
 		# Set InPort buffers
-		self.addInPort("origin_Temp",self._origin_TempIn)
+            self.addInPort("origin_Temp",self._origin_TempIn)
 
 		# Set OutPort buffers
 
@@ -97,8 +97,7 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 		# Set service consumers to Ports
 
 		# Set CORBA Service Ports
-
-		return RTC.RTC_OK
+            return RTC.RTC_OK
 
 	#	##
 	#	#
