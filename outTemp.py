@@ -186,7 +186,7 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 
                 print "%4.2f" % temp
                 print
-            else
+            else:
                 print "no new data"
 
             return RTC.RTC_OK
