@@ -1,0 +1,28 @@
+2016-09-06 01:41:32,832 manager INFO 1.1.0
+2016-09-06 01:41:32,833 manager INFO Copyright (C) 2003-2010
+2016-09-06 01:41:32,834 manager INFO   Noriaki Ando
+2016-09-06 01:41:32,834 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 01:41:32,835 manager INFO Manager starting.
+2016-09-06 01:41:32,836 manager INFO Starting local logging.
+2016-09-06 01:41:32,851 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 01:41:32,910 ManagerServant INFO Master manager not found
+2016-09-06 01:41:32,913 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 01:41:32,955 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 01:41:32,981 ec_base INFO setRate(1000000.000000) done
+2016-09-06 01:41:32,983 ec_base INFO setRate(1000.000000) done
+2016-09-06 01:41:32,989 rtobject INFO 1 execution context was created.
+2016-09-06 01:41:33,015 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 01:41:43,219 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 01:41:43,220 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 01:41:43,244 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 01:41:43,245 SdoServiceAdmin ERROR type 0829c2b6-4a12-423f-881a-da51457d174a already exists.
+2016-09-06 01:42:04,663 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(origin_TempIn.isnew()):
+NameError: global name 'origin_TempIn' is not defined
+
+2016-09-06 01:43:10,524 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 01:43:10,549 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-06 01:43:10,551 ec_base ERROR Invoking on_shutdown() for each RTC failed.

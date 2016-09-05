@@ -1,0 +1,31 @@
+2016-09-02 00:59:32,823 manager INFO 1.1.0
+2016-09-02 00:59:32,824 manager INFO Copyright (C) 2003-2010
+2016-09-02 00:59:32,825 manager INFO   Noriaki Ando
+2016-09-02 00:59:32,826 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-02 00:59:32,826 manager INFO Manager starting.
+2016-09-02 00:59:32,827 manager INFO Starting local logging.
+2016-09-02 00:59:32,842 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-02 00:59:32,901 ManagerServant INFO Master manager not found
+2016-09-02 00:59:32,908 manager WARNING Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 13] Permission denied: '/var/log/rtcmanager.ref'
+
+2016-09-02 00:59:32,911 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-02 00:59:32,956 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-02 00:59:32,984 ec_base INFO setRate(1000000.000000) done
+2016-09-02 00:59:32,987 ec_base INFO setRate(1000.000000) done
+2016-09-02 00:59:32,992 rtobject INFO 1 execution context was created.
+2016-09-02 00:59:33,006 rtobject INFO Initial active configuration set is default-set.
+2016-09-02 00:59:35,889 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-02 00:59:35,890 SdoServiceAdmin ERROR type  already exists.
+2016-09-02 00:59:35,901 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-02 00:59:35,902 SdoServiceAdmin ERROR type eefe3f5c-ebfe-4829-adf9-3cf2e3b798db already exists.
+2016-09-02 00:59:43,394 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(origin_TempIn.isnew()):
+NameError: global name 'origin_TempIn' is not defined
+
+2016-09-02 08:02:29,799 ec_worker ERROR State of the RTC is not ACTIVE_STATE.

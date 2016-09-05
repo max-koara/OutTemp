@@ -179,16 +179,18 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 		#
 	def onExecute(self, ec_id):
             print "onExecute launch"
-            if(origin_TempIn.isnew()):
+            if(self._origin_TempIn.isnew()):
                 print"if part of onExecute launch"
                 origin_Temp = origin_TempIn.read()
+		print "origin temp has a TempIn data"
                 temp = origin_Temp.data
 
                 print "%4.2f" % temp
-                print
+
             else:
                 print "no new data"
-
+	
+	    sleep(5)
             return RTC.RTC_OK
 
 	#	##

@@ -1,0 +1,36 @@
+2016-09-06 01:52:24,055 manager INFO 1.1.0
+2016-09-06 01:52:24,057 manager INFO Copyright (C) 2003-2010
+2016-09-06 01:52:24,057 manager INFO   Noriaki Ando
+2016-09-06 01:52:24,058 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 01:52:24,059 manager INFO Manager starting.
+2016-09-06 01:52:24,060 manager INFO Starting local logging.
+2016-09-06 01:52:24,075 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 01:52:24,135 ManagerServant INFO Master manager not found
+2016-09-06 01:52:24,139 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 01:52:24,182 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 01:52:24,210 ec_base INFO setRate(1000000.000000) done
+2016-09-06 01:52:24,212 ec_base INFO setRate(1000.000000) done
+2016-09-06 01:52:24,217 rtobject INFO 1 execution context was created.
+2016-09-06 01:52:24,231 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 01:57:58,829 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 01:57:58,830 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 01:57:58,841 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 01:57:58,842 SdoServiceAdmin ERROR type 514038a0-7fa1-4eb5-9160-7ba99fefa484 already exists.
+2016-09-06 01:58:16,191 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(origin_TempIn.isnew()):
+NameError: global name 'origin_TempIn' is not defined
+
+2016-09-06 02:00:47,051 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:00:52,641 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 02:00:57,536 origin_Temp ERROR Invalid connector id: 48abff30-738a-11e6-b8d9-b827eb298439
+2016-09-06 02:01:05,312 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:01:08,340 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 02:01:09,171 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 02:03:31,898 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:05:14,529 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:05:18,820 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 02:05:38,260 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:05:42,039 ec_worker ERROR State of the RTC is not ACTIVE_STATE.

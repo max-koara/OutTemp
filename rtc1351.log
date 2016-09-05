@@ -1,0 +1,14 @@
+2016-09-06 02:13:38,523 manager INFO 1.1.0
+2016-09-06 02:13:38,524 manager INFO Copyright (C) 2003-2010
+2016-09-06 02:13:38,525 manager INFO   Noriaki Ando
+2016-09-06 02:13:38,526 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 02:13:38,527 manager INFO Manager starting.
+2016-09-06 02:13:38,528 manager INFO Starting local logging.
+2016-09-06 02:13:38,543 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 02:13:38,605 ManagerServant INFO Master manager not found
+2016-09-06 02:13:38,609 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 02:13:38,653 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 02:13:38,680 ec_base INFO setRate(1000000.000000) done
+2016-09-06 02:13:38,682 ec_base INFO setRate(1000.000000) done
+2016-09-06 02:13:38,688 rtobject INFO 1 execution context was created.
+2016-09-06 02:13:38,710 rtobject INFO Initial active configuration set is default-set.
