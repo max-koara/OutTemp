@@ -1,0 +1,30 @@
+2016-09-06 03:15:13,909 manager INFO 1.1.0
+2016-09-06 03:15:13,910 manager INFO Copyright (C) 2003-2010
+2016-09-06 03:15:13,911 manager INFO   Noriaki Ando
+2016-09-06 03:15:13,912 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 03:15:13,913 manager INFO Manager starting.
+2016-09-06 03:15:13,914 manager INFO Starting local logging.
+2016-09-06 03:15:13,930 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 03:15:13,992 ManagerServant INFO Master manager not found
+2016-09-06 03:15:13,996 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 03:15:14,041 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 03:15:14,069 ec_base INFO setRate(1000000.000000) done
+2016-09-06 03:15:14,071 ec_base INFO setRate(1000.000000) done
+2016-09-06 03:15:14,077 rtobject INFO 1 execution context was created.
+2016-09-06 03:15:14,092 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 03:15:45,913 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 03:15:45,915 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 03:15:45,923 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 03:15:45,925 SdoServiceAdmin ERROR type 51075d7d-58e1-404d-b2f8-020970cddeed already exists.
+2016-09-06 03:16:06,572 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(self._origin_TempIn.isnew()):
+AttributeError: InPort instance has no attribute 'isnew'
+
+2016-09-06 03:17:53,997 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 03:17:57,618 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 03:24:49,142 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 03:35:52,163 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 03:36:19,154 ec_worker ERROR State of the RTC is not INACTIVE_STATE.

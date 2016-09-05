@@ -1,0 +1,29 @@
+2016-09-06 02:27:16,596 manager INFO 1.1.0
+2016-09-06 02:27:16,597 manager INFO Copyright (C) 2003-2010
+2016-09-06 02:27:16,598 manager INFO   Noriaki Ando
+2016-09-06 02:27:16,599 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 02:27:16,600 manager INFO Manager starting.
+2016-09-06 02:27:16,600 manager INFO Starting local logging.
+2016-09-06 02:27:16,615 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 02:27:16,675 ManagerServant INFO Master manager not found
+2016-09-06 02:27:16,679 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 02:27:16,722 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 02:27:16,749 ec_base INFO setRate(1000000.000000) done
+2016-09-06 02:27:16,751 ec_base INFO setRate(1000.000000) done
+2016-09-06 02:27:16,757 rtobject INFO 1 execution context was created.
+2016-09-06 02:27:16,778 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 02:30:00,685 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 02:30:00,686 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 02:30:00,696 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 02:30:00,697 SdoServiceAdmin ERROR type 81ac062a-afee-4fab-882f-b0f78166415d already exists.
+2016-09-06 02:30:10,637 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(self._origin_TempIn.isnew()):
+AttributeError: InPort instance has no attribute 'isnew'
+
+2016-09-06 02:30:48,213 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 02:32:10,626 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:34:14,939 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2016-09-06 02:34:40,256 ec_worker ERROR State of the RTC is not ACTIVE_STATE.

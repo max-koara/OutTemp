@@ -63,7 +63,7 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 		self._d_origin_Temp = RTC.TimedDouble(*origin_Temp_arg)
 		"""
 		"""
-		self._origin_TempIn = OpenRTM_aist.InPort("origin_Temp", self._d_origin_Temp)
+		self._origin_TempIn = OpenRTM_aist.InPort("origin_Temp", self._d_origin_Temp,OpenRTM_aist.RingBuffer(8))
 
 
 
@@ -178,19 +178,19 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 		#
 		#
 	def onExecute(self, ec_id):
-            print "onExecute launch"
+            print "onExecute launch on outTemp"
             if(self._origin_TempIn.isnew()):
                 print"if part of onExecute launch"
-                origin_Temp = origin_TempIn.read()
-		print "origin temp has a TempIn data"
-                temp = origin_Temp.data
+                self._d_origin_Temp = self._origin_TempIn.read()
+		print "temp has a TempIn data"
+                temp = self._d_origin_Temp.data
 
                 print "%4.2f" % temp
 
             else:
                 print "no new data"
 	
-	    sleep(5)
+	    sleep(30)
             return RTC.RTC_OK
 
 	#	##

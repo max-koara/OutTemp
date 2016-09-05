@@ -1,0 +1,26 @@
+2016-09-06 02:24:01,564 manager INFO 1.1.0
+2016-09-06 02:24:01,565 manager INFO Copyright (C) 2003-2010
+2016-09-06 02:24:01,566 manager INFO   Noriaki Ando
+2016-09-06 02:24:01,567 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 02:24:01,568 manager INFO Manager starting.
+2016-09-06 02:24:01,568 manager INFO Starting local logging.
+2016-09-06 02:24:01,583 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 02:24:01,642 ManagerServant INFO Master manager not found
+2016-09-06 02:24:01,646 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 02:24:01,689 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 02:24:01,716 ec_base INFO setRate(1000000.000000) done
+2016-09-06 02:24:01,718 ec_base INFO setRate(1000.000000) done
+2016-09-06 02:24:01,723 rtobject INFO 1 execution context was created.
+2016-09-06 02:24:01,746 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 02:24:19,238 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 02:24:19,239 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 02:24:19,248 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 02:24:19,249 SdoServiceAdmin ERROR type 0c1c622f-e56e-4e3f-925b-aceed84464ab already exists.
+2016-09-06 02:24:30,758 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(self._origin_TempIn.isnew()):
+AttributeError: InPort instance has no attribute 'isnew'
+
+2016-09-06 02:24:44,248 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
