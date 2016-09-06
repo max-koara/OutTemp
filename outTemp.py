@@ -180,9 +180,7 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
 	def onExecute(self, ec_id):
             	print "onExecute launch on outTemp"
             	if(self._origin_TempIn.isNew()):
-                	print"if part of onExecute launch"
-                	self._d_origin_Temp = self._origin_TempIn.read()
-			print "temp has a TempIn data"
+                      	self._d_origin_Temp = self._origin_TempIn.read()
                 	temp = self._d_origin_Temp.data
 
                 	print "%4.2f" % temp
