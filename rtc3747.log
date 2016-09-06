@@ -1,0 +1,42 @@
+2016-09-06 16:10:50,898 manager INFO 1.1.0
+2016-09-06 16:10:50,900 manager INFO Copyright (C) 2003-2010
+2016-09-06 16:10:50,900 manager INFO   Noriaki Ando
+2016-09-06 16:10:50,901 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 16:10:50,902 manager INFO Manager starting.
+2016-09-06 16:10:50,902 manager INFO Starting local logging.
+2016-09-06 16:10:50,917 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 16:10:50,977 ManagerServant INFO Master manager not found
+2016-09-06 16:10:50,980 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 16:10:51,022 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 16:10:51,049 ec_base INFO setRate(1000000.000000) done
+2016-09-06 16:10:51,051 ec_base INFO setRate(1000.000000) done
+2016-09-06 16:10:51,056 rtobject INFO 1 execution context was created.
+2016-09-06 16:10:51,070 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 16:12:10,621 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 16:12:10,622 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 16:12:10,636 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 16:12:10,637 SdoServiceAdmin ERROR type 3b1c1433-6699-4ed1-b5aa-faa28f1d62d8 already exists.
+2016-09-06 16:13:17,534 ec_base ERROR The component is not responding.
+2016-09-06 16:13:17,535 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-06 16:15:38,509 ec_base ERROR The component is not responding.
+2016-09-06 16:15:38,511 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-06 16:17:47,680 ec_base ERROR The component is not responding.
+2016-09-06 16:17:47,682 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-06 16:27:20,191 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 16:29:09,153 ec_base ERROR The component is not responding.
+2016-09-06 16:29:09,154 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-06 16:31:58,318 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 16:38:18,699 OutPortCorbaCdrConsumer WARNING Exception caught from OutPort.get().
+2016-09-06 16:38:18,703 OutPortCorbaCdrConsumer ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/OutPortCorbaCdrConsumer.py", line 200, in get
+    ret,cdr_data = outportcdr.get()
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTM_IDL/DataPort_idl.py", line 121, in get
+    return _omnipy.invoke(self, "get", _0_OpenRTM.OutPortCdr._d_get, args)
+BAD_PARAM: CORBA.BAD_PARAM(omniORB.BAD_PARAM_WrongPythonType, CORBA.COMPLETED_MAYBE)
+
+2016-09-06 16:38:18,704 origin_Temp ERROR unknown retern value from buffer.read()
+2016-09-06 16:39:19,934 ec_base ERROR The component is not responding.
+2016-09-06 16:39:19,936 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-06 16:39:32,599 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 16:39:32,619 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-06 16:39:32,621 ec_base ERROR Invoking on_shutdown() for each RTC failed.
