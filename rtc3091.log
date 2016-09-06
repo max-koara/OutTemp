@@ -1,0 +1,42 @@
+2016-09-06 14:35:35,513 manager INFO 1.1.0
+2016-09-06 14:35:35,514 manager INFO Copyright (C) 2003-2010
+2016-09-06 14:35:35,516 manager INFO   Noriaki Ando
+2016-09-06 14:35:35,516 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 14:35:35,517 manager INFO Manager starting.
+2016-09-06 14:35:35,518 manager INFO Starting local logging.
+2016-09-06 14:35:35,532 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:35:35,591 ManagerServant INFO Master manager not found
+2016-09-06 14:35:35,594 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 14:35:35,637 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 14:35:35,663 ec_base INFO setRate(1000000.000000) done
+2016-09-06 14:35:35,665 ec_base INFO setRate(1000.000000) done
+2016-09-06 14:35:35,670 rtobject INFO 1 execution context was created.
+2016-09-06 14:35:35,691 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 14:35:46,275 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:35:46,277 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:35:56,335 manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2016-09-06 14:36:06,394 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:36:06,396 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:36:16,451 manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2016-09-06 14:36:26,511 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:36:26,512 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:36:36,566 manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2016-09-06 14:36:46,625 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:36:46,626 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:36:56,681 manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2016-09-06 14:37:06,740 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:37:06,742 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:37:16,799 manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2016-09-06 14:37:26,859 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-06 14:37:26,860 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:37:44,171 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-06 14:37:44,172 SdoServiceAdmin ERROR type  already exists.
+2016-09-06 14:37:44,195 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-06 14:37:44,196 SdoServiceAdmin ERROR type d74bf652-96a5-4e21-841a-5b17bb3ad1ca already exists.
+2016-09-06 14:37:52,412 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 182, in onExecute
+    if(self._origin_TempIn.isnew()):
+AttributeError: InPort instance has no attribute 'isnew'
+

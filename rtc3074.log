@@ -1,0 +1,19 @@
+2016-09-06 14:34:00,301 manager INFO 1.1.0
+2016-09-06 14:34:00,303 manager INFO Copyright (C) 2003-2010
+2016-09-06 14:34:00,303 manager INFO   Noriaki Ando
+2016-09-06 14:34:00,304 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-06 14:34:00,305 manager INFO Manager starting.
+2016-09-06 14:34:00,306 manager INFO Starting local logging.
+2016-09-06 14:34:00,320 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:34:00,380 ManagerServant INFO Master manager not found
+2016-09-06 14:34:00,383 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-06 14:34:00,427 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-06 14:34:00,454 ec_base INFO setRate(1000000.000000) done
+2016-09-06 14:34:00,456 ec_base INFO setRate(1000.000000) done
+2016-09-06 14:34:00,461 rtobject INFO 1 execution context was created.
+2016-09-06 14:34:00,475 rtobject INFO Initial active configuration set is default-set.
+2016-09-06 14:34:10,369 manager.namingmanager INFO NameServer connection failed: corba/localhost
+2016-09-06 14:34:10,378 manager.namingmanager INFO Connected to a name server: corba/localhost
+2016-09-06 14:34:10,542 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-06 14:34:10,549 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-06 14:34:10,551 ec_base ERROR Invoking on_shutdown() for each RTC failed.
