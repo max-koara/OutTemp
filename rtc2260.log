@@ -1,0 +1,23 @@
+2016-09-07 16:43:43,917 manager INFO 1.1.0
+2016-09-07 16:43:43,919 manager INFO Copyright (C) 2003-2010
+2016-09-07 16:43:43,920 manager INFO   Noriaki Ando
+2016-09-07 16:43:43,920 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-07 16:43:43,921 manager INFO Manager starting.
+2016-09-07 16:43:43,922 manager INFO Starting local logging.
+2016-09-07 16:43:43,936 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-07 16:43:43,995 ManagerServant INFO Master manager not found
+2016-09-07 16:43:43,999 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-07 16:43:44,040 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-07 16:43:44,067 ec_base INFO setRate(1000000.000000) done
+2016-09-07 16:43:44,069 ec_base INFO setRate(1000.000000) done
+2016-09-07 16:43:44,075 rtobject INFO 1 execution context was created.
+2016-09-07 16:43:44,096 rtobject INFO Initial active configuration set is default-set.
+2016-09-07 16:43:46,474 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-07 16:43:46,475 SdoServiceAdmin ERROR type  already exists.
+2016-09-07 16:43:46,484 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-07 16:43:46,485 SdoServiceAdmin ERROR type 8daf2b02-e248-4de7-a1e6-73ebeb6ba25e already exists.
+2016-09-07 16:44:17,930 ec_base ERROR The component is not responding.
+2016-09-07 16:44:17,932 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-07 16:44:49,419 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-07 16:44:49,439 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-07 16:44:49,440 ec_base ERROR Invoking on_shutdown() for each RTC failed.
