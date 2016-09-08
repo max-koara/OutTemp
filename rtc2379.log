@@ -1,0 +1,29 @@
+2016-09-07 16:53:51,458 manager INFO 1.1.0
+2016-09-07 16:53:51,460 manager INFO Copyright (C) 2003-2010
+2016-09-07 16:53:51,461 manager INFO   Noriaki Ando
+2016-09-07 16:53:51,461 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-07 16:53:51,462 manager INFO Manager starting.
+2016-09-07 16:53:51,463 manager INFO Starting local logging.
+2016-09-07 16:53:51,478 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-07 16:53:51,538 ManagerServant INFO Master manager not found
+2016-09-07 16:53:51,541 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-07 16:53:51,584 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-07 16:53:51,612 ec_base INFO setRate(1000000.000000) done
+2016-09-07 16:53:51,614 ec_base INFO setRate(1000.000000) done
+2016-09-07 16:53:51,619 rtobject INFO 1 execution context was created.
+2016-09-07 16:53:51,641 rtobject INFO Initial active configuration set is default-set.
+2016-09-07 16:53:54,386 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-07 16:53:54,387 SdoServiceAdmin ERROR type  already exists.
+2016-09-07 16:53:54,407 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-07 16:53:54,408 SdoServiceAdmin ERROR type b5c518b0-a417-4831-9b95-6d9b639f690e already exists.
+2016-09-07 16:54:02,247 rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTObject.py", line 1560, in on_execute
+    ret = self.onExecute(ec_id)
+  File "outTemp.py", line 183, in onExecute
+    print "Temperature(Celcius) : %4.2f" % self._d_origin_Temp.data
+TypeError: float argument required, not instance
+
+2016-09-07 16:54:07,290 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-07 16:54:13,182 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-07 16:54:13,202 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-07 16:54:13,204 ec_base ERROR Invoking on_shutdown() for each RTC failed.
