@@ -182,8 +182,8 @@ class outTemp(OpenRTM_aist.DataFlowComponentBase):
             	if(self._origin_TempIn.isNew()):
                 	temp = self._d_origin_Temp.data
 
-                	print "%4.2f" % temp
-
+                	#print "%4.2f" % temp
+                        print temp
             	else:
                 	print "no new data"
 
