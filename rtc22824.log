@@ -1,0 +1,28 @@
+2016-09-14 15:50:37,983 manager INFO 1.1.0
+2016-09-14 15:50:37,983 manager INFO Copyright (C) 2003-2010
+2016-09-14 15:50:37,983 manager INFO   Noriaki Ando
+2016-09-14 15:50:37,983 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-14 15:50:37,983 manager INFO Manager starting.
+2016-09-14 15:50:37,983 manager INFO Starting local logging.
+2016-09-14 15:50:37,986 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-14 15:50:39,999 ManagerServant INFO Master manager not found
+2016-09-14 15:50:40,002 manager WARNING Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 2] No such file or directory: '/var/log/rtcmanager.ref'
+
+2016-09-14 15:50:40,003 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-14 15:50:40,016 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-14 15:50:40,022 ec_base INFO setRate(1000000.000000) done
+2016-09-14 15:50:40,023 ec_base INFO setRate(1000.000000) done
+2016-09-14 15:50:40,025 rtobject INFO 1 execution context was created.
+2016-09-14 15:50:40,032 rtobject INFO Initial active configuration set is default-set.
+2016-09-14 15:50:41,420 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-14 15:50:41,420 SdoServiceAdmin ERROR type  already exists.
+2016-09-14 15:50:41,421 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-14 15:50:41,421 SdoServiceAdmin ERROR type 7b5d2dba-e4eb-4fb9-9ac0-dc26f8098554 already exists.
+2016-09-14 15:52:23,706 ec_base ERROR The component is not responding.
+2016-09-14 15:52:23,706 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-14 15:54:03,423 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-14 15:54:03,424 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-14 15:54:03,424 ec_base ERROR Invoking on_shutdown() for each RTC failed.

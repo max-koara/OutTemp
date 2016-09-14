@@ -1,0 +1,38 @@
+2016-09-14 15:54:09,601 manager INFO 1.1.0
+2016-09-14 15:54:09,601 manager INFO Copyright (C) 2003-2010
+2016-09-14 15:54:09,601 manager INFO   Noriaki Ando
+2016-09-14 15:54:09,601 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-14 15:54:09,601 manager INFO Manager starting.
+2016-09-14 15:54:09,602 manager INFO Starting local logging.
+2016-09-14 15:54:09,605 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-14 15:54:11,615 ManagerServant INFO Master manager not found
+2016-09-14 15:54:11,619 manager WARNING Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 2] No such file or directory: '/var/log/rtcmanager.ref'
+
+2016-09-14 15:54:11,661 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-14 15:54:11,671 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-14 15:54:11,677 ec_base INFO setRate(1000000.000000) done
+2016-09-14 15:54:11,677 ec_base INFO setRate(1000.000000) done
+2016-09-14 15:54:11,678 rtobject INFO 1 execution context was created.
+2016-09-14 15:54:11,686 rtobject INFO Initial active configuration set is default-set.
+2016-09-14 15:54:19,151 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-14 15:54:19,151 SdoServiceAdmin ERROR type  already exists.
+2016-09-14 15:54:19,153 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-14 15:54:19,153 SdoServiceAdmin ERROR type be2da109-2c39-47c8-898e-b3986e68489d already exists.
+2016-09-14 15:55:27,026 ec_base ERROR The component is not responding.
+2016-09-14 15:55:27,026 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-14 17:17:02,621 ec_base ERROR The component is not responding.
+2016-09-14 17:17:02,621 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-14 17:17:49,009 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-14 17:17:49,029 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-14 17:17:49,029 ec_base ERROR Invoking on_shutdown() for each RTC failed.
+2016-09-14 17:17:50,009 manager ERROR Caught SystemException during root POA destruction
+2016-09-14 17:17:50,012 manager ERROR Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\Manager.py", line 1673, in shutdownORB
+    self._poa.destroy(False, True)
+  File "C:\Python27\lib\site-packages\omniORB\PortableServer.py", line 142, in destroy
+    self._obj.destroy(etherialize_objects, wait_for_completion)
+OBJECT_NOT_EXIST: CORBA.OBJECT_NOT_EXIST(omniORB.OBJECT_NOT_EXIST_POANotInitialised, CORBA.COMPLETED_NO)
+

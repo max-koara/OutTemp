@@ -1,0 +1,41 @@
+2016-09-14 17:22:32,667 manager INFO 1.1.0
+2016-09-14 17:22:32,667 manager INFO Copyright (C) 2003-2010
+2016-09-14 17:22:32,667 manager INFO   Noriaki Ando
+2016-09-14 17:22:32,667 manager INFO   Intelligent Systems Research Institute, AIST
+2016-09-14 17:22:32,667 manager INFO Manager starting.
+2016-09-14 17:22:32,667 manager INFO Starting local logging.
+2016-09-14 17:22:32,671 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-09-14 17:22:34,680 ManagerServant INFO Master manager not found
+2016-09-14 17:22:34,680 manager WARNING Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 2] No such file or directory: '/var/log/rtcmanager.ref'
+
+2016-09-14 17:22:34,680 LocalServiceAdmin INFO All the local services are enabled.
+2016-09-14 17:22:34,683 manager INFO Component type conf file: outTemp.conf loaded.
+2016-09-14 17:22:34,684 ec_base INFO setRate(1000000.000000) done
+2016-09-14 17:22:34,684 ec_base INFO setRate(1000.000000) done
+2016-09-14 17:22:34,684 rtobject INFO 1 execution context was created.
+2016-09-14 17:22:34,686 rtobject INFO Initial active configuration set is default-set.
+2016-09-14 17:22:37,239 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2016-09-14 17:22:37,240 SdoServiceAdmin ERROR type  already exists.
+2016-09-14 17:22:37,240 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2016-09-14 17:22:37,240 SdoServiceAdmin ERROR type 4accb53d-54e2-46db-968f-d6a45c430540 already exists.
+2016-09-14 17:22:45,436 OutPortCorbaCdrConsumer WARNING Exception caught from OutPort.get().
+2016-09-14 17:22:45,437 OutPortCorbaCdrConsumer ERROR Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\OutPortCorbaCdrConsumer.py", line 200, in get
+    ret,cdr_data = outportcdr.get()
+  File "C:\Python27\lib\site-packages\OpenRTM_aist\RTM_IDL\DataPort_idl.py", line 127, in get
+    return self._obj.invoke("get", _0_OpenRTM.OutPortCdr._d_get, args)
+BAD_PARAM: CORBA.BAD_PARAM(omniORB.BAD_PARAM_WrongPythonType, CORBA.COMPLETED_MAYBE)
+
+2016-09-14 17:22:45,437 origin_Temp ERROR unknown retern value from buffer.read()
+2016-09-14 17:23:51,246 ec_base ERROR The component is not responding.
+2016-09-14 17:23:51,246 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-14 17:24:19,417 origin_Temp WARNING buffer empty
+2016-09-14 17:26:05,328 ec_base ERROR The component is not responding.
+2016-09-14 17:26:05,328 ec_base ERROR Unknown error: Invalid state transition.
+2016-09-14 17:35:58,157 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-14 17:41:32,384 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-09-14 17:41:32,390 ec_worker WARNING ExecutionContext is already stopped.
+2016-09-14 17:41:32,391 ec_base ERROR Invoking on_shutdown() for each RTC failed.
